@@ -1,0 +1,35 @@
+.parallax{
+    height: 100vh;
+    background-image: url('https://cdn.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_S.jpg');
+    background-position:  center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+}
+
+.blackblock {
+    height: 60vh;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: flex-end;  
+}
+
+.parallax01{
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://www.matichon.co.th/wp-content/uploads/2021/09/cocker-spaniel-2785074_1920.jpg');
+    background-position:  center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: pink;
+}
