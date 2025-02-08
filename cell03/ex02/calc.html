@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Calculator</title>
+    <style>
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <input type="number" id="number1" placeholder="Enter number" min="0">
@@ -54,9 +61,7 @@
             console.log("Result: " + result);
         }
         
-        setInterval(() => {
-            alert("Please, use me...");
-        }, 30000);
+        setInterval(() => {alert("Please, use me...");}, 30000);
     </script>
 </body>
 </html>
