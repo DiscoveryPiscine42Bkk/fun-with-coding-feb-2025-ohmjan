@@ -1,5 +1,6 @@
-.bgc{
-    background-color: rgb(216, 117, 110);
+body{
+  text-align: center;
+  padding: 200px;
 }
 .dropbtn {
   background-color: #04AA6D;
@@ -12,6 +13,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+
 }
 
 .dropdown-content {
@@ -29,8 +31,8 @@
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #2dce48;}
+.dropdown-content a:hover {background-color:white ;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #686edd;}   
+.dropdown:hover .dropbtn {background-color: rgb(199, 207, 213);}   
